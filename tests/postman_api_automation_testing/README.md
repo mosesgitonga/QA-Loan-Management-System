@@ -45,7 +45,9 @@ To run the automated API tests with Newman using the collection and environment:
 
 - Run the following command:
 
-- newman run 'lending app testing.postman_collection.json' -e QA-lending-env.postman_environment.json
+```
+newman run 'lending app testing.postman_collection.json' -e QA-lending-env.postman_environment.json
+```
 
 This command will execute all the tests in the Postman collection using the provided environment.
 

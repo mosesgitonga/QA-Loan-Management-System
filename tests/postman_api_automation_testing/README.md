@@ -50,8 +50,9 @@ To run the automated API tests with Newman using the collection and environment:
 This command will execute all the tests in the Postman collection using the provided environment.
 
 ## Generate Test Reports
-```newman run 'lending app testing.postman_collection.json' \
+```
+newman run 'lending app testing.postman_collection.json' \
   -e QA-lending-env.postman_environment.json \
   --reporters cli,html \
-  --reporter-html-export report.html```
-  
+  --reporter-html-export report.html
+  ```
